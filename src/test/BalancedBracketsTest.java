@@ -67,4 +67,11 @@ public class BalancedBracketsTest {
         assertFalse(test_Class.hasBalancedBrackets("]LaunchCode["));
     }
 
+    @Test
+    public void unevenBrackets() {
+        assertFalse(test_Class.hasBalancedBrackets("[[LaunchCode]"));
+    }
+
+
+
 }
